@@ -1,0 +1,6 @@
+begin_task()
+set_task_sources(paging.cpp paging.h)
+add_task_test(unit_tests tests/unit.cpp)
+get_task_target(VAR solve)
+add_task_executable(${VAR} solve.cpp paging.h paging.cpp)
+end_task()

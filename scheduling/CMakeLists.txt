@@ -1,0 +1,2 @@
+add_subdirectory(greedy)
+add_subdirectory(round_robin)
